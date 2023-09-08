@@ -6,7 +6,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: app_db
-      POSTGRES_DATA: /data/postgres
+      PG_DATA: /data/postgres
     restart: always
     volumes:
       - postgres:/data/postgres
